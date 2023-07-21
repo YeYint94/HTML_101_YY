@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 7</title>
+</head>
+<body>
+    <h2>Question 7</h2>
+    <p><em>Create a form that asks the user to enter their 
+        credit card information (card number, expiration date, and CVV) and submit the form.
+    </em></p>
+    <p>Please fill out your credit card information.</p>
+    <form action="#">
+        <label for="cardowner"><b>Owner Name</b></label> <br>
+        <input type="text" name="owner" id="cardowner"> <br><br>
+        <label for="cvv"><b>CVV</b></label> <br>
+        <input type="text" name="cvv" id="cvv"> <br><br>
+        <label for="cardno"><b>Card Number</b></label><br>
+        <input type="text" name="cardno" id="cardno"><br><br>
+        <label for="expdate"><b>Expiration Date</b></label> <br>
+        <select name="month" id="month">
+            <option value="01">January</option>
+            <option value="02">February</option>
+            <option value="03">March</option>
+            <option value="04">April</option>
+            <option value="05">May</option>
+            <option value="06">June</option>
+            <option value="07">July</option>
+            <option value="08">August</option>
+            <option value="09">September</option>
+            <option value="10">October</option>
+            <option value="11">November</option>
+            <option value="12">December</option>
+        </select>
+        <select name="year" id="year">
+            <option value="23">2023</option>
+            <option value="24">2024</option>
+            <option value="25">2025</option>
+            <option value="26">2026</option>
+        </select>
+        <input type="submit" value="Confirm">
+    </form>
+</body>
+</html>
